@@ -15,12 +15,9 @@
     <style>
 
         * {box-sizing:border-box}
-
         .principal {
-
             width:100%;
-            height:300vh;
-                       
+            height:300vh;         
         }
 
         .ImagemMenu {
@@ -29,15 +26,12 @@
             background-image: url(/IMG/imgMenu.png)
         }
 
-        .Menu{
-            
+        .Menu{   
             width:100%;
-            height:12vh;
-           
+            height:12vh;          
         }
 
         .Item {
-
             width:25%;
             height:12vh;
             color:black;
@@ -45,21 +39,15 @@
             font-family: Centaur;
             float:left;
             font-size:35px;
-            padding-top:18px;
-            
-            
+            padding-top:18px;    
         }
 
             .Item:hover {
-
                box-shadow: 0px 3px 3px 0px black;
                transition:0.8s;
-
             }
 
         .Texto {
-
-
             color:black;
             font-size:45px;
             text-align:center;
@@ -71,7 +59,6 @@
 
 
         .Texto2 {
-       
             color:black;
             font-size:27px;
             text-align:center;
@@ -81,47 +68,27 @@
             margin-top: 70px;
             background:linear-gradient(45deg, #1b30dc, #717cdb);
             padding-top:45px;
-
-
         }
 
-
-       
-
-
-            
-
-
-
-
         .galeria {
-
             width:100%;
-           overflow: auto;
-           
-                              
-
+           overflow: auto;            
         }
 
         img {
             max-width: 100%;
             height: auto;
-                margin-left:300px;
-               
+            margin-left:300px;    
         }
 
         .imagem {
-
-            max-width:750px;
-           max-height:720px;
-            float:left;
-             
-               
+          max-width:750px;
+          max-height:720px;
+          float:left; 
         }
 
         .limpar {
             clear:both;
-
         }
 
         @media screen and (max-width:640px) {
@@ -151,27 +118,11 @@
         }
 
         i{
-
             font-size:35px;
             float:right;
             padding-right:25px;
             margin-top:-8px;
-           
-
-        }
-       
-       
-
-        
-
-       
-
-
-
-       
-
-
-
+        }   
     </style>
 
 
@@ -183,45 +134,22 @@ function w3_close() {
     document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
 }
 </script>
-
-
-
-
 </head>
 <body style="padding:0; margin:0;">
     <form id="form1" runat="server">
         <div class="principal">
-
             <div class="ImagemMenu">
-                
-               <div class="Menu">
-                   
-
-
-                   
+               <div class="Menu">                   
                    <div class="Item">INICIO</div>
                    <div class="Item">FOTOS</div>
                    <div class="Item">TINTAS</div>
                    <div class="Item">LOJAS</div>
-
-
-
                </div>
-
-
-                
-
             </div>
-
-
-            <div class="Texto">
-
-                Nossas Artes e Nossas Histórias
-                            
+           <div class="Texto">
+                Nossas Artes e Nossas Histórias         
            </div>
-
            <div class="Texto2">
-
                <br />
                Somos a maior empresa do Brasil que trabalha com tintas, criação de cores e serviços de pintura.
                <br />
@@ -233,17 +161,8 @@ function w3_close() {
                <br />
                <br />
                Vide abaixo nossa galeria de imagens!
-
-
-
-
            </div>
-
-
             <div class="Texto" style="margin-bottom:70px;">Galeria de Imagens</div>
-
-
-
             <section class="galeria">
         <figure class="imagem">
             <a data-fancybox="gallery" alt="FREEZA" data-caption="LEGENDA DA IMAGEM" href="IMG/casa1.jpg">
@@ -256,7 +175,6 @@ function w3_close() {
             </a>
         </figure>
                 </section>
-
              <section class="galeria">
         <figure class="imagem">
             <a data-fancybox="gallery" alt="FREEZA" data-caption="LEGENDA DA IMAGEM" href="IMG/casa3.jpg">
@@ -269,7 +187,6 @@ function w3_close() {
             </a>
         </figure>
                 </section>
-
              <section class="galeria">
         <figure class="imagem">
             <a data-fancybox="gallery" alt="FREEZA" data-caption="LEGENDA DA IMAGEM" href="IMG/casa5.jpg">
@@ -282,8 +199,6 @@ function w3_close() {
             </a>
         </figure>
                 </section>
-
-
              <section class="galeria">
         <figure class="imagem">
             <a data-fancybox="gallery" alt="FREEZA" data-caption="LEGENDA DA IMAGEM" href="IMG/casa7.jpg">
@@ -296,7 +211,6 @@ function w3_close() {
             </a>
         </figure>
                 </section>
-
              <section class="galeria">
         <figure class="imagem">
             <a data-fancybox="gallery" alt="FREEZA" data-caption="LEGENDA DA IMAGEM" href="IMG/casa9.jpg">
@@ -309,7 +223,6 @@ function w3_close() {
             </a>
         </figure>
                 </section>
-
             <script>
 $('[data-fancybox]').fancybox({
 mobile : {
@@ -318,31 +231,15 @@ mobile : {
 }  
 });
     </script>
-
-
             <div class="Rodape"> 
-
                 <br />
                 <i class="fas fa-copyright"></i>
-             
                 Copyright 2020 - CColor Pinturas & Serviços.
-
                 <i class="fab fa-instagram"></i> 
             <i class="fab fa-facebook-square"></i> 
                 <i class="fab fa-whatsapp"></i>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-        </div>
+       </div>
     </form>
 </body>
 </html>
